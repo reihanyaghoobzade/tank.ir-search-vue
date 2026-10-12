@@ -1,35 +1,13 @@
-# tank.ir-search-vue
+# tank.ir Search — Vue 3
 
-This template should help get you started developing with Vue 3 in Vite.
+The classified-ads **search experience for tank.ir**, implemented with **Vue 3 + Vite + Tailwind CSS** — listing, filtering, and ad detail views.
 
-## Recommended IDE Setup
+This repo is the Vue 3 implementation of the same product; see also [`tank.ir-search-nuxt`](https://github.com/reihanyaghoobzade/tank.ir-search-nuxt) for the Nuxt 2 version. Building the same feature on both frameworks was a deliberate exercise in comparing routing, data fetching, and SSR trade-offs between Nuxt 2 and Vue 3 tooling.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Getting Started
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+npm run dev        # start dev server
+npm run build      # production build
 ```
